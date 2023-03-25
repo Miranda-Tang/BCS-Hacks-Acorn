@@ -1,7 +1,5 @@
 import React from "react";
 import { View, StyleSheet, Image, TouchableOpacity, Text, TextInput} from "react-native";
-// import WelcomeScreen from "./app/Screens/WelcomeScreen";
-// import LoginScreen from "./app/Screens/LoginScreen";
 import HomeCalendarScreen from "./app/Screens/HomeCalendarScreen";
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -35,7 +33,8 @@ function WelcomeScreen({navigation}) {
       padding: 10,
       borderRadius: 40,
       backgroundColor: '#bface2',
-    }}>
+    }}
+    >
     <Text style={{
       fontWeight: 'bold',
       fontSize: 16,
@@ -68,10 +67,10 @@ function WelcomeScreen({navigation}) {
       }}
       />
       <Text style={{
-    color: "#655DBB",
-    fontWeight: "bold",
-    fontSize: 27,
-  }}>acorn</Text>
+        color: "#655DBB",
+        fontWeight: "bold",
+        fontSize: 27,
+      }}>acorn</Text>
       <TextInput
       style={{
         height: 40,
@@ -113,10 +112,10 @@ function WelcomeScreen({navigation}) {
         backgroundColor: '#655DBB',
       }}>
       <Text style={{
-    fontWeight: 'bold',
-    fontSize: 16,
-    color: "#EEE4FF",   
-  }}>
+        fontWeight: 'bold',
+        fontSize: 16,
+        color: "#EEE4FF",   
+      }}>
       Sign In
       </Text>
       </TouchableOpacity>      
