@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
   SafeAreaView,
-  ScrollView,
   StyleSheet,
   View,
   Modal,
@@ -9,7 +8,7 @@ import {
   Image,
   Text,
 } from "react-native";
-import { Calendar, CalendarList } from "react-native-calendars";
+import { Calendar } from "react-native-calendars";
 import upset from "../assets/upset.png";
 import stress from "../assets/stress.png";
 import sleepy from "../assets/sleepy.png";
@@ -18,7 +17,6 @@ import cry from "../assets/cry.png";
 
 function HomeCalendarScreen() {
   const [modalVisible, setModalVisible] = useState(false);
-  const [rowGap, setRowGap] = useState(10);
 
   return (
     <SafeAreaView style={styles.container}>
