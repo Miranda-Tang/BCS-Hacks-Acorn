@@ -1,7 +1,12 @@
 import { View, Text, StyleSheet, Image, TextInput, TouchableOpacity } from "react-native";
 import React from "react";
+// import HomeCalendarScreen from "./app/Screens/HomeCalendarScreen";
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-function LoginScreen() {
+const Stack = createNativeStackNavigator();
+
+function LoginScreen({navigation}) {
   const [username, onChangeUsername] = React.useState();
   const [password, onChangePassword] = React.useState()
 
@@ -40,7 +45,7 @@ function LoginScreen() {
 }
 
 const buttonClickedHandler = () => {
-
+  navigation.navigate('HomeCalendarScreen')
 }
 
 const styles = StyleSheet.create({

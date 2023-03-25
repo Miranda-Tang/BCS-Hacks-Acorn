@@ -15,7 +15,7 @@ import sleepy from "../assets/sleepy.png";
 import happy from "../assets/happy.png";
 import cry from "../assets/cry.png";
 
-function HomeCalendarScreen() {
+function HomeCalendarScreen({navigation}) {
   const [modalVisible, setModalVisible] = useState(false);
 
   return (

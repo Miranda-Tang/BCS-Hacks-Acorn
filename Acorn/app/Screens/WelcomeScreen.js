@@ -1,7 +1,7 @@
-import React from 'react';
+import * as React from 'react';
 import { View, StyleSheet, Image, TouchableOpacity, Text} from "react-native";
 
-function WelcomeScreen() {
+function WelcomeScreen({navigation}) {
     return (
         <View style={styles.container}>
             <Image 
@@ -39,17 +39,18 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         padding: 10,
         borderRadius: 40,
-        backgroundColor: '#655DBB',
+        backgroundColor: '#bface2',
       },
       loginButtonText: {
         fontWeight: 'bold',
         fontSize: 16,
         color: "#EEE4FF",        
       }
-  })
+})
 
   const buttonClickedHandler = () => {
-
+    console.log("clicked");
+    navigation.navigate('LoginScreen')
   }
 
 export default WelcomeScreen;
