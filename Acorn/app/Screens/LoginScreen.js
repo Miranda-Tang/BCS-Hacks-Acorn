@@ -2,8 +2,8 @@ import { View, Text, StyleSheet, Image, TextInput, TouchableOpacity } from "reac
 import React from "react";
 
 function LoginScreen() {
-  const [username, onChangeUsername] = React.useState("Username");
-  const [password, onChangePassword] = React.useState("Password")
+  const [username, onChangeUsername] = React.useState();
+  const [password, onChangePassword] = React.useState()
 
   return (
     <View style={styles.container}>
