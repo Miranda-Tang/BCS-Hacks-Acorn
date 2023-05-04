@@ -8,9 +8,7 @@ Our idea stems from the use of mood tracking as a positive psychology technique 
 - Django
 
 ## Demo Pictures:
-<div align="center">
-   <img src="Acorn/app/assets/demo_pics/demo1.png"  height=200><img src="Acorn/app/assets/demo_pics/demo2.png" height=200>
-</div>
-<div align="center">
-   <img src="Acorn/app/assets/demo_pics/demo3.png"  height=200><img src="Acorn/app/assets/demo_pics/demo4.png" height=200>
-</div>
+![demo1](Acorn/app/assets/demo_pics/demo1.png)
+![demo2](Acorn/app/assets/demo_pics/demo2.png)
+![demo3](Acorn/app/assets/demo_pics/demo3.png)
+![demo4](Acorn/app/assets/demo_pics/demo4.png)
