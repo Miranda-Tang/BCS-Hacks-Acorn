@@ -86,10 +86,10 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Acorn', 
-        'USER': 'postgres', 
+        'NAME': 'Acorn',
+        'USER': 'postgres',
         'PASSWORD': 'Chaeastone1917',
-        'HOST': '127.0.0.1', 
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
